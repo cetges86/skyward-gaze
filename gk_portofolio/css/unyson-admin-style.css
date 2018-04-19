@@ -1,0 +1,177 @@
+/**
+ * -------------------------------------------
+ * Custom CSS for Backend
+ * -------------------------------------------*/
+
+/* Unyson Install Demo */
+#fw-ext-backups-demo-list .theme-actions {
+  bottom: 0;
+  top: auto;
+  -webkit-transform: translatey(0);
+  -moz-transform: translatey(0);
+  transform: translatey(0);
+}
+
+#fw-ext-backups-demo-list .theme-actions .button,
+.gk .gk-btn {
+  background: #4abcf1;
+  border-color: #4abcf1;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0px 16px;
+  text-shadow: none;
+}
+
+
+/* About gavick page */
+.gk {
+	max-width: 100%;
+}
+
+.gk .about-us  {
+	position: relative;
+}
+
+.left.gk-info .about-text {
+  color: #555;
+  font-style: italic;
+}
+
+.gk .about-us .left,
+.gk .about-us .right {
+	display: inline-block;
+}
+
+.left.gk-info h1 {
+  font-family: 'Montserrat';
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.right.gk-logo {
+  vertical-align: middle;
+}
+
+.right.gk-logo {
+  background: #fff;
+  box-shadow: 0 0 5px #000;
+  padding: 20px 20px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.right.gk-logo ul {
+  color: #999;
+  font-size: 12px;
+  line-height: 1;
+  margin: 0;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.right.gk-logo ul a {
+  color: #000;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+	.right.gk-logo {
+		position: relative;
+		top: 0;
+	}
+
+	div.content-info .portfolio-install-plugins, 
+	div.content-info .portfolio-install-demo,
+  div.content-info .portfolio-active-license {
+    margin-right: 0; 
+    margin: 15px 0;
+    min-height: 270px;
+    padding: 20px 0;
+    width: 100%;
+	}
+}
+
+.gk .about-description {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+/* nav tab */
+.gk .nav-tab-wrapper {
+  border-bottom: 2px solid #666 !important;
+}
+
+.gk .nav-tab-wrapper .nav-tab {
+  border: 0;
+  font-weight: bold;
+  margin-left: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.gk .nav-tab-active, 
+.gk .nav-tab-active:active, 
+.gk .nav-tab-active:hover {
+  background: #666 !important;
+  color: #fff;
+}
+
+.gk .gk-btn {
+  font-size: 16px;
+  font-weight: 600;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 40px;
+}
+
+.gk .gk-btn:hover {
+	border-color: transparent;
+}
+
+.content-info {
+	padding: 30px 0;
+}
+
+.content-info .portfolio-box  {
+  background: #fff;
+  display: block;
+  margin-bottom: 60px;
+  min-height: 270px;
+  padding: 20px 50px 50px 50px;
+  text-align: center;
+}
+
+@media (min-width: 1281px) {
+  .content-info .portfolio-box  {
+    margin-right: 100px;
+    display: inline-block;
+    width: 35%;
+  }
+
+  .content-info .portfolio-install-plugins,
+  .portfolio-box.portfolio-active-license {
+    float: left;
+  }
+}
+
+.content-info p.desc {
+  padding: 10px 40px;
+}
+
+.content-info h2 {
+	font-size: 28px;
+  font-weight: 600;
+}
+
+div#changelogs {
+  background: #f8f8f8;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 20px;
+  padding: 10px 22px 80px;
+}
+
+.content-note {
+  font-style: italic;
+}

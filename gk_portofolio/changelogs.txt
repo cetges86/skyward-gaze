@@ -1,0 +1,17 @@
+===Changelog===
+
+* 1.5.3 *
+	- Compatible WP 4.9
+	- Add One-click demo
+
+Files Changed:
+	- functions.php
+
+New folder: 
+	- inc
+	- framework
+	- demo-content
+
+New files: 
+	- css/unyson-admin-style.css
+	- images/gk-logo/favicon.gif
